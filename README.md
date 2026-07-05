@@ -23,6 +23,8 @@
 | Очереди | Файловые (.txt) + filelock |
 | Запуск | systemd (whisper-watcher, whisper-worker) |
 
+### Продукт снабжен подробным инженерным Runbook для адаптации к архитектуре Tiered Storage (уровневого хранения) заказчика на базе любого сетевого оборудования (NFS/SSHFS/NAS).
+
 ### Из чего состоит
 
 - `/watcher.py`, `/worker.py`, `/rt_config.cfg` — компоненты реального времени
